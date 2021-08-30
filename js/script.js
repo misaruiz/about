@@ -54,7 +54,7 @@ const graphicHME = new Jobs(
  * Sidebar
  */
 
-const certifications = new Sidebar('Certifications', 'card-heading', [
+const certifications = new Sidebar('Certifications', 'award', [
     ['Full-Stack Javascript', 'Treehouse Techdegree']
 ]);
 
@@ -75,3 +75,9 @@ const extra = new Sidebar('Extra', 'geo-alt', [
     ['Art & Music', 'Illustrations', 'Murals', 'T-Shirts', 'Guitar'],
     ['Languages', 'English & Spanish']
 ]);
+
+
+/**
+ * Gets current year
+ */
+ document.getElementById("year").innerHTML = new Date().getFullYear();

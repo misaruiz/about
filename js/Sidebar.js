@@ -19,7 +19,7 @@ class Sidebar {
                         } else {
                             return `<span>${subItem}</span>`;
                         }
-                    }).join(' • ')
+                    }).join(' <span class="text-primary text-opacity-50">•</span> ')
                 }</p>`).join('')
             }
         </article>`);
