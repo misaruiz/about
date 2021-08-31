@@ -78,6 +78,16 @@ const extra = new Sidebar('Extra', 'geo-alt', [
 
 
 /**
+ * Contact Info
+ */
+const name = 'Misael Ruiz';
+const title = 'UX Designer';
+const website = new ContactInfo('misaruiz.github.io', 'https://misaruiz.github.io/', 'globe2');
+const email = new ContactInfo('hello@misaruiz.com', 'mailto:hello@misaruiz.com', 'envelope');
+const phone = new ContactInfo('619.292.1438', 'tel:619-292-1438', 'telephone');
+
+
+/**
  * Gets current year
  */
  document.getElementById("year").innerHTML = new Date().getFullYear();

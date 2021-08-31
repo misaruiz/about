@@ -14,7 +14,7 @@ class Jobs {
             document.getElementById('work-experience').insertAdjacentHTML("beforeend", 
                 `<article class="mb-5">
                     <h3 class="h4"><strong>${this.title}</strong></h3>
-                    <p class="h5 text-muted">${this.company}</p>
+                    <p class="h6 text-primary">${this.company}</p>
                     <p class="text-muted h6">${this.startDate} – ${this.endDate} <span class="text-primary text-opacity-25">•</span> ${this.city}, ${this.state}</p>
                     <ul class="description">${this.descriptions.map(description => `<li>${description}</li>`).join('')}</ul>
                 </article>`);      
