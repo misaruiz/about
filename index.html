@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -14,29 +13,13 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" media="print" href="css/print.css" />
-
-    <title>Misael Ruiz - UX Designer</title>
+    <title></title>
   </head>
   <body class="bg-secondary">
-    <nav
-      class="
-        navbar navbar-dark
-        bg-dark
-        sticky-top
-        navbar-expand-lg
-        bg-opacity-75
-      "
-    >
+    <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg bg-opacity-75">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img
-            src="assets/misaruiz-avatar.png"
-            alt=""
-            width="24"
-            height="24"
-            class="d-inline-block align-text-top rounded-circle"
-          />
-          <strong>Misael Ruiz</strong> - UX Designer
+          <img alt="" width="24" height="24" class="d-inline-block align-text-top rounded-circle myAvatar" />
         </a>
         <button
           class="navbar-toggler"
@@ -50,10 +33,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav ms-auto my-2 my-lg-0"
-            style="--bs-scroll-height: 100px"
-          >
+          <ul class="navbar-nav ms-auto my-2 my-lg-0" style="--bs-scroll-height: 100px">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Resume</a>
             </li>
@@ -61,12 +41,7 @@
               <a class="nav-link" href="#">Portoflio</a>
             </li>
             <li class="nav-item">
-              <button
-                class="btn btn-dark text-white text-opacity-50"
-                onclick="print();"
-              >
-                <i class="bi bi-printer"></i> Print
-              </button>
+              <button class="btn btn-dark text-white text-opacity-50" onclick="print();"><i class="bi bi-printer"></i> Print</button>
             </li>
           </ul>
         </div>
@@ -74,96 +49,37 @@
     </nav>
     <div class="container">
       <div class="row rounded-3 justify-content-center">
-        <div
-          class="
-            col-12 col-lg-8 col-xl-6
-            mt-lg-5
-            pt-5
-            ps-lg-5
-            bg-white
-            text-center
-          "
-        >
-          <img
-            src="assets/misaruiz-avatar.png"
-            class="rounded-circle"
-            alt="Illustration of Misael Ruiz"
-            width="100"
-            height="100"
-          />
+        <div class="col-12 col-lg-8 col-xl-6 mt-lg-5 pt-5 ps-lg-5 bg-white text-center">
+          <img class="rounded-circle myAvatar" alt="Illustration of Misael Ruiz" width="100" height="100" />
           <h1 class="display-3 mb-0"><strong>Misael Ruiz</strong></h1>
           <p class="h1 pb-5 text-primary">
-            <strong><abbr title="User Experience">UX</abbr> Designer</strong>
+            <strong><abbr title="User Experience" data-bs-toggle="tooltip" data-bs-placement="bottom">UX</abbr> Designer</strong>
           </p>
         </div>
-        <div
-          class="
-            col-12 col-lg-4 col-xl-3
-            bg-light
-            mt-lg-5
-            px-5
-            py-4 py-xl-5
-            ps-lg-4
-            pe-lg-5
-          "
-        >
-          <ul
-            id="contact-info"
-            class="list-unstyled small text-center text-lg-start mb-0"
-          >
+        <div class="col-12 col-lg-4 col-xl-3 bg-light mt-lg-5 px-5 py-4 py-xl-5 ps-lg-4 pe-lg-5">
+          <ul id="contact-info" class="list-unstyled small text-center text-lg-start mb-0">
             <!-- Contact info goes here-->
-            </li>
           </ul>
         </div>
-
-        <div
-          class="
-            col-12 col-lg-8 col-xl-6
-            mb-3
-            pt-5 pt-xl-0
-            px-5
-            pe-lg-4
-            pb-lg-5
-            ps-lg-5
-            bg-white
-          "
-        >
-          <!-- <h2 class="h6 text-primary">
-            <i class="bi bi-lightning"></i> Work Experience
-          </h2> -->
+        <div class="col-12 col-lg-8 col-xl-6 mb-3 pt-5 pt-xl-0 px-5 pe-lg-4 pb-lg-5 ps-lg-5 bg-white">
           <section id="work-experience">
             <!-- Work Experience goes here -->
           </section>
         </div>
-        <div
-          class="
-            col-12 col-lg-4 col-xl-3
-            bg-light
-            mb-3
-            pt-5 pt-lg-0
-            px-5
-            ps-lg-4
-            pb-gl-5
-            pe-lg-5
-          "
-        >
+        <div class="col-12 col-lg-4 col-xl-3 bg-light mb-3 pt-5 pt-lg-0 px-5 ps-lg-4 pb-gl-5 pe-lg-5">
           <section id="sidebar">
             <!-- Sidebar content goes here-->
           </section>
         </div>
       </div>
     </div>
-
     <footer class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-9">
-          <p class="small text-white text-opacity-75">
-            &copy; <span id="year"></span> Misael Ruiz
-          </p>
+          <p class="small text-white text-opacity-75">&copy; <span id="year"></span> Misael Ruiz</p>
         </div>
       </div>
     </footer>
-
     <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
