@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="print" href="css/print.css" />
 
     <title>Misael Ruiz - UX Designer</title>
   </head>
@@ -26,7 +27,7 @@
         bg-opacity-75
       "
     >
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="#">
           <img
             src="assets/misaruiz-avatar.png"
@@ -50,7 +51,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
@@ -58,6 +59,14 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portoflio</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-dark text-white text-opacity-50"
+                onclick="print();"
+              >
+                <i class="bi bi-printer"></i> Print
+              </button>
             </li>
           </ul>
         </div>
@@ -67,10 +76,10 @@
       <div class="row rounded-3 justify-content-center">
         <div
           class="
-            col-12 col-xl-8 col-xxl-6
-            mt-xl-5
+            col-12 col-lg-8 col-xl-6
+            mt-lg-5
             pt-5
-            ps-xl-5
+            ps-lg-5
             bg-white
             text-center
           "
@@ -89,24 +98,25 @@
         </div>
         <div
           class="
-            col-12 col-xl-4 col-xxl-3
+            col-12 col-lg-4 col-xl-3
             bg-light
-            mt-xl-5
+            mt-lg-5
+            px-5
             py-4 py-xl-5
-            ps-xl-4
-            pe-xl-5
+            ps-lg-4
+            pe-lg-5
           "
         >
-          <ul class="list-unstyled small text-center text-xl-start mb-0">
-            <li class="d-block d-md-inline-block d-xl-block me-md-3 m-xl-0">
+          <ul class="list-unstyled small text-center text-lg-start mb-0">
+            <li class="d-block d-md-inline-block d-lg-block me-md-3 m-lg-0">
               <i class="bi bi-globe2 text-primary"></i>
               <a href="#">misaruiz.github.io</a>
             </li>
-            <li class="d-block d-md-inline-block d-xl-block me-md-3 m-xl-0">
+            <li class="d-block d-md-inline-block d-lg-block me-md-3 m-lg-0">
               <i class="bi bi-envelope text-primary"></i>
               <a href="mailto:hello@misaruiz.com">hello@misaruiz.com</a>
             </li>
-            <li class="d-block d-md-inline-block d-xl-block">
+            <li class="d-block d-md-inline-block d-lg-block">
               <i class="bi bi-telephone text-primary"></i>
               <a href="#">619.292.1438</a>
             </li>
@@ -115,13 +125,13 @@
 
         <div
           class="
-            col-12 col-xl-8 col-xxl-6
+            col-12 col-lg-8 col-xl-6
             mb-3
             pt-5 pt-xl-0
             px-5
-            pe-xl-4
-            pb-xl-5
-            ps-xl-5
+            pe-lg-4
+            pb-lg-5
+            ps-lg-5
             bg-white
           "
         >
@@ -134,14 +144,14 @@
         </div>
         <div
           class="
-            col-12 col-xl-4 col-xxl-3
+            col-12 col-lg-4 col-xl-3
             bg-light
             mb-3
-            pt-5 pt-xl-0
+            pt-5 pt-lg-0
             px-5
-            ps-xl-4
-            pb-xl-5
-            pe-xl-5
+            ps-lg-4
+            pb-gl-5
+            pe-lg-5
           "
         >
           <section id="sidebar">
@@ -153,7 +163,7 @@
 
     <footer class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-xl-9">
+        <div class="col-12 col-lg-9">
           <p class="small text-white text-opacity-75">
             &copy; <span id="year"></span> Misael Ruiz
           </p>
